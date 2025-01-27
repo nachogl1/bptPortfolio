@@ -22,7 +22,9 @@ export default function TrainingCard({training, isDark}) {
   return (
     <div
       className={isDark ? "training-card-dark" : "training-card"}
-      onClick={() => navigate(`/${training.id}`)}
+      onClick={() => {
+        if (training.id != null) navigate(`/${training.id}`);
+      }}
     >
       <div style={{background: rgb(colorArrays)}} className="training-banner">
         <div className="training-blurred_div"></div>

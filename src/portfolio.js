@@ -34,48 +34,84 @@ const trainings = {
         {
           title: "Thursday 13th",
           contents: [
-            {time:"5 PM", content:"All students must be in Seville Airport to be transported to Merida"},
-            {time:"8 PM", content:"Group class (2p), Group class (2p), match (4p)"},
-            {time:"9.30 PM", content:"Group class (2p), Group class (2p), match (4p)"},
-            {time:"11 PM", content:"Finish first day"},
+            {
+              time: "5 PM",
+              content:
+                "All students must be in Seville Airport to be transported to Merida"
+            },
+            {
+              time: "8 PM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {
+              time: "9.30 PM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {time: "11 PM", content: "Finish first day"}
           ]
         },
         {
           title: "Friday 14th",
           contents: [
-            {time:"8.30 AM", content:"Breakfast time"},
-            {time:"10 AM", content:"4x Private class (1p), match (4p)"},
-            {time:"11.30 AM", content:"4x Private class (1p), match (4p)"},
-            {time:"1 PM", content:"Lunch + FREE TIME"},
-            {time:"6 PM", content:"MIX STATIONS: Group class (2p), Group class (3p), Group class (3p)"},
-            {time:"7.30 PM", content:"2 x Match (4p)"},
-            {time:"9 PM", content:"Finish second day"},
+            {time: "8.30 AM", content: "Breakfast time"},
+            {time: "10 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "11.30 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "1 PM", content: "Lunch + FREE TIME"},
+            {
+              time: "6 PM",
+              content:
+                "MIX STATIONS: Group class (2p), Group class (3p), Group class (3p)"
+            },
+            {time: "7.30 PM", content: "2 x Match (4p)"},
+            {time: "9 PM", content: "Finish second day"}
           ]
         },
         {
           title: "Saturday 15th",
           contents: [
-            {time:"8.30 AM", content:"Breakfast time"},
-            {time:"10 AM", content:"4x Private class (1p), match (4p)"},
-            {time:"11.30 AM", content:"4x Private class (1p), match (4p)"},
-            {time:"1 PM", content:"Lunch + FREE TIME"},
-            {time:"6 PM", content:"MIX STATIONS: Group class (2p), Group class (3p), Group class (3p)"},
-            {time:"7.30 PM", content:"2 x Match (4p)"},
-            {time:"9 PM", content:"Finish second day"},
+            {time: "8.30 AM", content: "Breakfast time"},
+            {time: "10 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "11.30 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "1 PM", content: "Lunch + FREE TIME"},
+            {
+              time: "6 PM",
+              content:
+                "MIX STATIONS: Group class (2p), Group class (3p), Group class (3p)"
+            },
+            {time: "7.30 PM", content: "2 x Match (4p)"},
+            {time: "9 PM", content: "Finish second day"}
           ]
         },
         {
           title: "Sunday 16th",
           contents: [
-            {time:"~8 AM", content:"Breakfast time"},
-            {time:"9 AM", content:"Group class (2p), Group class (2p), match (4p)"},
-            {time:"10.30 AM", content:"Group class (2p), Group class (2p), match (4p)"},
-            {time:"12 PM", content:"Lunch"},
-            {time:"2 PM", content:"All students to be transported to Seville to fly back"},
-            {time:"5 PM", content:"Arrival to Seville's airport"},
+            {time: "~8 AM", content: "Breakfast time"},
+            {
+              time: "9 AM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {
+              time: "10.30 AM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {time: "12 PM", content: "Lunch"},
+            {
+              time: "2 PM",
+              content: "All students to be transported to Seville to fly back"
+            },
+            {time: "5 PM", content: "Arrival to Seville's airport"}
           ]
         }
       ]
+    },
+    {
+      id: null,
+      level: null,
+      club: null,
+      clubLogo: null,
+      date: null,
+      desc: "Contact us to design your own training with your own group at any date",
+      milestones: null
     }
   ]
 };
