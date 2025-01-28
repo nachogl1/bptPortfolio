@@ -26,6 +26,9 @@
   width: 2.6rem;
   margin-bottom: 10px;
   transition: 0.2s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .facebook i {
@@ -86,5 +89,8 @@
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
