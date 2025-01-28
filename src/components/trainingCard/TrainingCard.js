@@ -28,18 +28,47 @@ export default function TrainingCard({training, isDark}) {
     >
       <div style={{background: rgb(colorArrays)}} className="training-banner">
         <div className="training-blurred_div"></div>
-        <div className="training-div-company">
-          <h5 className="training-text-company">{training.club}</h5>
+        <div
+          className="training-div-company"
+          style={{display: "flex", flexDirection: "column"}}
+        >
+          {training.openInscription ? (
+            <span
+              style={{marginLeft: "auto", marginRight: "5%", color: "#9ce336"}}
+            >
+              Inscription open
+            </span>
+          ) : (
+            <span style={{marginLeft: "auto", marginRight: "5%", color: "red"}}>
+              Inscription closed
+            </span>
+          )}
+
+          {training.club && training.clubLogo ? (
+            <h5 className="training-text-company">{training.club}</h5>
+          ) : (
+            <h5 className="training-text-company">Custom</h5>
+          )}
         </div>
 
-        <img
-          crossOrigin={"anonymous"}
-          ref={imgRef}
-          className="training-roundedimg"
-          src={training.clubLogo}
-          alt={training.club}
-          onLoad={() => getColorArrays()}
-        />
+        {training.club && training.clubLogo ? (
+          <img
+            crossOrigin={"anonymous"}
+            ref={imgRef}
+            className="training-roundedimg"
+            src={training.clubLogo}
+            alt={training.club}
+            onLoad={() => getColorArrays()}
+          />
+        ) : (
+          <img
+            crossOrigin={"anonymous"}
+            ref={imgRef}
+            className="training-roundedimg"
+            src={null}
+            alt={""}
+          />
+        )}
       </div>
       <div className="training-text-details">
         <h5

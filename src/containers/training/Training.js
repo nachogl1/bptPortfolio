@@ -13,7 +13,7 @@ export default function Training() {
         <Fade bottom duration={1000} distance="20px">
           <div className="training-container" id="training">
             <div>
-              <h1 className="training-heading">Trainings</h1>
+              <h1 className="training-heading">Select your training</h1>
               <div className="training-cards-div">
                 {trainings.trainings.map((training, i) => {
                   return (

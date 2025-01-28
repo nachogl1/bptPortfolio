@@ -14,12 +14,11 @@ export default function TrainingEvent({training}) {
 
   return (
     <>
-      <div style={{marginRight:"10%", marginLeft:"10%"}}>
+      <div style={{marginRight: "10%", marginLeft: "10%"}}>
         <TrainingCard key={training.id} isDark={isDark} training={training} />
       </div>
       <div style={{margin: "5%"}}>
-
-      <PadelCarouselV2></PadelCarouselV2>
+        <PadelCarouselV2></PadelCarouselV2>
       </div>
       <div className="timeline">
         {training.milestones.map((milestone, i) => {
@@ -30,8 +29,11 @@ export default function TrainingEvent({training}) {
                   <h2>{milestone.title}</h2>
                   {milestone.contents.map(content => {
                     return (
-                      <div>
-                        <b>{content.time} -</b> {content.content}
+                      <div style={{marginTop: "5%", marginBottom: "5%"}}>
+                        <b>
+                          <u>{content.time}</u>
+                        </b>{" "}
+                        {content.content}
                       </div>
                     );
                   })}
@@ -45,8 +47,11 @@ export default function TrainingEvent({training}) {
                   <h2>{milestone.title}</h2>
                   {milestone.contents.map(content => {
                     return (
-                      <div>
-                        <b>{content.time} -</b> {content.content}
+                      <div style={{marginTop: "5%", marginBottom: "5%"}}>
+                        <b>
+                          <u>{content.time}</u>
+                        </b>{" "}
+                        {content.content}
                       </div>
                     );
                   })}

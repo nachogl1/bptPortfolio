@@ -11,15 +11,15 @@ export default function PadelCarousel() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: {max: 4000, min: 3000},
-      items: 5
+      items: 4
     },
     desktop: {
       breakpoint: {max: 3000, min: 1024},
-      items: 3
+      items: 2
     },
     tablet: {
       breakpoint: {max: 1024, min: 464},
-      items: 2
+      items: 1
     },
     mobile: {
       breakpoint: {max: 464, min: 0},
@@ -27,9 +27,25 @@ export default function PadelCarousel() {
     }
   };
   return (
-    <div >
+    <div>
       <Carousel responsive={responsive}>
-        <div >
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/hotelRambla/h1.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/merida/m1.jpg")}
+          />
+        </div>
+        <div>
           <img
             width="400"
             height="400"
@@ -67,6 +83,62 @@ export default function PadelCarousel() {
             height="400"
             alt="img"
             src={require("../../assets/images/esMasPadelClub/8.png")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/hotelRambla/h2.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/hotelRambla/h3.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/hotelRambla/h4.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/hotelRambla/h5.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/merida/m2.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/merida/m3.jpg")}
+          />
+        </div>
+        <div>
+          <img
+            width="400"
+            height="400"
+            alt="img"
+            src={require("../../assets/images/merida/m4.jpg")}
           />
         </div>
       </Carousel>
