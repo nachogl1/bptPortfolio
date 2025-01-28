@@ -33,6 +33,15 @@ const trainings = {
       desc: "Indoor padel club where talents like Pablo Cardona grew up. Es + Padel owns one of the best padel academies in Spain in which almost all under 18 competitors are #1 in their category.",
       milestones: [
         {
+          title: "Main detail",
+          contents: [{time: "Price", content: "600 £"},
+            {time: "Includes", content: "Transport Seville-Merida and viceversa"},
+            {time: "Includes", content: "Individual Hotel Room"},
+            {time: "Includes", content: "Padel Training"},
+            {time: "Deadline", content: "25/02/2025"},
+          ]
+        },
+        {
           title: "Thursday 13th",
           contents: [
             {
