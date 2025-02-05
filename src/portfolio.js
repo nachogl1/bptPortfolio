@@ -116,6 +116,98 @@ const trainings = {
       ]
     },
     {
+      id: "1",
+      level: "Level 3 - 4",
+      openInscription: true,
+      club: "Es + Padel",
+      clubLogo: require("./assets/images/esMasPadelLogo.png"),
+      date: "13/03/2025 - 16/03/2025",
+      desc: "Indoor padel club where talents like Pablo Cardona grew up. Es + Padel owns one of the best padel academies in Spain in which almost all under 18 competitors are #1 in their category.",
+      milestones: [
+        {
+          title: "Main details",
+          contents: [{time: "Price", content: "600 £"},
+            {time: "Includes", content: "Transport Seville-Merida and viceversa"},
+            {time: "Includes", content: "Individual Hotel Room"},
+            {time: "Includes", content: "Padel Training"},
+            {time: "Deadline", content: "25/02/2025"},
+          ]
+        },
+        {
+          title: "Thursday 13th",
+          contents: [
+            {
+              time: "5 PM",
+              content:
+                "All students must be in Seville Airport to be transported to Merida"
+            },
+            {
+              time: "8 PM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {
+              time: "9.30 PM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {time: "11 PM", content: "Finish first day"}
+          ]
+        },
+        {
+          title: "Friday 14th",
+
+          contents: [
+            {time: "8.30 AM", content: "Breakfast time"},
+            {time: "10 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "11.30 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "1 PM", content: "Lunch and optional sightseeing"},
+            {
+              time: "6 PM",
+              content:
+                "Mix stations: Group class (2p), Group class (3p), Group class (3p)"
+            },
+            {time: "7.30 PM", content: "2 x Match (4p)"},
+            {time: "9 PM", content: "Finish second day"}
+          ]
+        },
+        {
+          title: "Saturday 15th",
+          contents: [
+            {time: "8.30 AM", content: "Breakfast time"},
+            {time: "10 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "11.30 AM", content: "4x Private class (1p), match (4p)"},
+            {time: "1 PM", content: "Lunch and optional sightseeing"},
+            {
+              time: "6 PM",
+              content:
+                "Mix stations: Group class (2p), Group class (3p), Group class (3p)"
+            },
+            {time: "7.30 PM", content: "2 x Match (4p)"},
+            {time: "9 PM", content: "Finish second day"}
+          ]
+        },
+        {
+          title: "Sunday 16th",
+          contents: [
+            {time: "~8 AM", content: "Breakfast time"},
+            {
+              time: "9 AM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {
+              time: "10.30 AM",
+              content: "Group class (2p), Group class (2p), match (4p)"
+            },
+            {time: "12 PM", content: "Lunch"},
+            {
+              time: "2 PM",
+              content: "All students to be transported to Seville to fly back"
+            },
+            {time: "5 PM", content: "Arrival to Seville's airport"}
+          ]
+        }
+      ]
+    },
+    {
       id: null,
       level: null,
       club: null,
