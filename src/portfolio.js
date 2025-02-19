@@ -26,7 +26,7 @@ const trainings = {
     {
       id: "0",
       level: "Level 4.5 - 5.0",
-      openInscription: true,
+      openInscription: false,
       club: "Es + Padel",
       clubLogo: require("./assets/images/esMasPadelLogo.png"),
       date: "13/03/2025 - 16/03/2025",
@@ -118,7 +118,7 @@ const trainings = {
     {
       id: "1",
       level: "Level 3 - 4",
-      openInscription: true,
+      openInscription: false,
       club: "Es + Padel",
       clubLogo: require("./assets/images/esMasPadelLogo.png"),
       date: "13/03/2025 - 16/03/2025",
